@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Scribble",
+    "version": "0.0.1",
+
+    "default_locale": "en",
+    "description": "A note-scribbler for the web",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ]
+}
